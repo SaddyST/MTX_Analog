@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Saddy\\source\\repos\\WinFormsApp2\\WinFormsApp2.vbproj": {}
+    "C:\\Users\\Saddy\\Source\\Repos\\SaddyST\\MTX_Analog\\WinFormsApp2\\WinFormsApp2.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Saddy\\source\\repos\\WinFormsApp2\\WinFormsApp2.vbproj": {
+    "C:\\Users\\Saddy\\Source\\Repos\\SaddyST\\MTX_Analog\\WinFormsApp2\\WinFormsApp2.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Saddy\\source\\repos\\WinFormsApp2\\WinFormsApp2.vbproj",
+        "projectUniqueName": "C:\\Users\\Saddy\\Source\\Repos\\SaddyST\\MTX_Analog\\WinFormsApp2\\WinFormsApp2.vbproj",
         "projectName": "WinFormsApp2",
-        "projectPath": "C:\\Users\\Saddy\\source\\repos\\WinFormsApp2\\WinFormsApp2.vbproj",
+        "projectPath": "C:\\Users\\Saddy\\Source\\Repos\\SaddyST\\MTX_Analog\\WinFormsApp2\\WinFormsApp2.vbproj",
         "packagesPath": "C:\\Users\\Saddy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Saddy\\source\\repos\\WinFormsApp2\\obj\\",
+        "outputPath": "C:\\Users\\Saddy\\Source\\Repos\\SaddyST\\MTX_Analog\\WinFormsApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Saddy\\AppData\\Roaming\\NuGet\\NuGet.Config",

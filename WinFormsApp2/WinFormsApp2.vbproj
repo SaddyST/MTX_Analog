@@ -30,4 +30,9 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="My Project\Новая папка1\" />
+    <Folder Include="My Project\Новая папка\" />
+  </ItemGroup>
+
 </Project>
