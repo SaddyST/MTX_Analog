@@ -16,7 +16,11 @@ Public Class Parcer
                 QQ = fw.ReadLine
 
                 If (QQ.IndexOf(Task_word) <> -1) Then
-                    num(schet) = QQ
+                    Do
+                        num(schet) = num(schet) + vbCrLf + QQ
+                        QQ = fw.ReadLine
+                    Loop Until (QQ.IndexOf(Task_word) <> -1)
+
                     schet += 1
                 End If
             Loop Until fw.EndOfStream

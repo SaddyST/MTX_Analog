@@ -11,9 +11,12 @@ Public Class Form1
             If (Ex_s IsNot Nothing) Then
                 If (Ex_s(i) IsNot Nothing) Then
                     ListBox1.Items.Add(Ex_s(i))
+
                 End If
             End If
+            Label1.Text = Ex_s(0)
         Next
+
     End Sub
 
 End Class
