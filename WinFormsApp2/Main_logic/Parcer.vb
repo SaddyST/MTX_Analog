@@ -12,13 +12,15 @@ Public Class Parcer
         Dim QQ As String
         Dim schet As Integer
         If (fw IsNot Nothing) Then
+            QQ = fw.ReadLine
             Do
-                QQ = fw.ReadLine
-
                 If (QQ.IndexOf(Task_word) <> -1) Then
                     Do
-                        num(schet) = num(schet) + vbCrLf + QQ
+                        num(schet) = num(schet) + QQ + vbCrLf
                         QQ = fw.ReadLine
+                        If (fw.EndOfStream) Then
+                            Exit Do
+                        End If
                     Loop Until (QQ.IndexOf(Task_word) <> -1)
 
                     schet += 1

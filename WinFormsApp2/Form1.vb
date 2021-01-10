@@ -1,6 +1,6 @@
 ﻿Imports System.IO
 Public Class Form1
-    Dim num() As String = New String(999) {}
+    Dim num() As String = New String(100) {}
     Dim Ex_s() As String
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim Parcer As New Parcer
@@ -8,16 +8,13 @@ Public Class Form1
 
         Ex_s = Parcer.qwe(num)
         For i As Integer = 0 To 10
-            If (Ex_s IsNot Nothing) Then
-                If (Ex_s(i) IsNot Nothing) Then
-                    ListBox1.Items.Add(Ex_s(i))
-
-                End If
-            End If
-            Label1.Text = Ex_s(0)
+            ListBox1.Items.Add(i)
         Next
-
     End Sub
 
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+        Label1.Text = Ex_s(ListBox1.SelectedItem)
+
+    End Sub
 End Class
 
