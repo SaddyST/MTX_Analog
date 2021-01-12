@@ -2,8 +2,8 @@
 Public Class Form1
     Dim num() As String = New String(100) {}
     Dim Ex_s() As String
+    Dim Parcer As New Parcer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim Parcer As New Parcer
         Parcer.Connect_file()
 
         Ex_s = Parcer.qwe(num)
@@ -14,7 +14,10 @@ Public Class Form1
 
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
         Label1.Text = Ex_s(ListBox1.SelectedItem)
+    End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Ex_s = Parcer.scan_otv(num)
     End Sub
 End Class
 
